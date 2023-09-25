@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6px;
+}
+
+.icon-menu {
+	height: 15px;
+	width: auto;
+	vertical-align: middle;
+}
+
+.header__actions a {
+	padding: 0 1rem;
+}
+
+.header__button {
+	padding: 0.4rem 0.6rem;
+	border-radius: 4px;
+	background: #1a73e8;
+	border: 1px solid transparent;
+	color: white;
+}
+
+.header__button:hover {
+	background: #1b66c9;
+	box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15),
+		0 1px 2px 0 rgba(60, 64, 67, 0.3);
+	cursor: pointer;
+}

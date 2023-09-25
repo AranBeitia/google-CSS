@@ -13,22 +13,65 @@
 		/>
 	</head>
 	<body>
-		<header class="header">
-			<div>
-				<a href="#">Sobre google</a>
-				<a href="#">Tienda</a>
-			</div>
-			<div>
-				<a href="#"> Gmail </a>
-				<a href="#">Imágenes</a>
-				<a href="#">icon</a>
-				<button>Iniciar sesión</button>
-			</div>
-		</header>
-		<main>
-			<section>image</section>
-			<section>search</section>
-		</main>
-		<footer></footer>
+		<div class="container">
+			<header class="header">
+				<div>
+					<a href="#">Sobre google</a>
+					<a href="#">Tienda</a>
+				</div>
+				<div class="header__actions">
+					<a href="#"> Gmail </a>
+					<a href="#">Imágenes</a>
+					<a href="#"
+						><img
+							src="./assets/images/multiple.svg"
+							alt="menu multiple"
+							class="icon-menu"
+					/></a>
+					<button class="header__button">Iniciar sesión</button>
+				</div>
+			</header>
+			<main class="main">
+				<section class="google-section">
+					<img
+						src="./assets/images/google.png"
+						alt="google logo"
+						class="google-image"
+					/>
+				</section>
+				<form action="">
+					<input type="search" name="googleSearch" id="googleSearch" />
+					<div>
+						<button>Buscar con google</button>
+						<button>Voy a tener suerte</button>
+					</div>
+					<p>
+						Ofrecido por Google en: <a href="#">català</a>
+						<a href="#">galego</a> <a href="#">euskara</a>
+					</p>
+				</form>
+			</main>
+			<footer class="footer">
+				<p class="info-txt">España</p>
+				<section class="d-flex-column padding-1">
+					<a href="#" class="text-center"
+						>Tres décadas de acción climática: descubre lo que estamos
+						haciendo</a
+					>
+					<div class="footer__links">
+						<ul class="d-flex">
+							<li><a href="#">publicidad</a></li>
+							<li><a href="#">empresa</a></li>
+							<li><a href="#">Cómo funciona la Búsqueda</a></li>
+						</ul>
+						<ul class="d-flex">
+							<li><a href="#">publicidad</a></li>
+							<li><a href="#">empresa</a></li>
+							<li><a href="#">Cómo funciona la Búsqueda</a></li>
+						</ul>
+					</div>
+				</section>
+			</footer>
+		</div>
 	</body>
 </html>

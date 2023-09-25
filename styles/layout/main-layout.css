@@ -1,0 +1,17 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+}
+
+.google-section {
+	min-height: 200px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.google-image {
+	width: 200px;
+	height: fit-content;
+}
